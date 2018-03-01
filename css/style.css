@@ -1,0 +1,246 @@
+body
+{
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+	background-color: gray;
+}
+
+/* header */
+header
+{
+	background-color: black;
+	max-width: 100%;
+	margin: auto;
+}
+header > nav > ul 
+{
+    list-style-type: none;
+    list-style-position: inside;
+    overflow: auto;
+    padding: 0;
+}
+header > nav > ul > li 
+{
+    float: left;
+    box-sizing: border-box;
+    width: 25%;
+    text-align: center;
+}
+header > nav > ul > li > a 
+{
+    text-decoration: none;
+    display: block;
+    font-size: 120%;
+    padding: 5%;
+	color: white
+}
+header > nav > ul > li > a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+/* main */
+main
+{
+	max-width: 1000px;
+    margin: auto;
+	color: black;
+	background-color: white;
+	padding-bottom: 1%;
+}
+p 
+{
+    margin: 2% 1% 1% 2%;
+	width: auto;
+}
+main h2, h3
+{
+	margin-left: 1%;
+	padding-top: 2%;
+	text-align: center;
+}
+
+img
+{
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+figure
+{
+	height: auto;
+	float: left;
+	margin: 1%;
+}
+address
+{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+address > p
+{
+	text-align: center;
+}
+
+figcaption
+{
+	text-align: center;	
+	font-size: 90%;
+	color: gray;
+}
+
+main > article > section:nth-of-type(even) > figure
+{
+	float: right;
+	height: auto;
+}
+.home
+{
+	padding: 2.5% 0% 0% 0%;
+}
+.border
+{
+		border: 1px solid black;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-top: 1%;
+}
+	
+.imageexp
+{
+	margin: auto;
+	text-align: center;
+	width: auto;
+	height: auto;
+    padding: 165px 0px 165px 0px;
+}
+.imageexp2
+{
+	width: auto;
+    padding: 2.5% 0px 0px 0px;
+}
+.clearleft
+{
+	clear: left;
+}
+.clearright
+{
+	clear: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* footer */
+footer
+{
+	max-width: 1000px;
+	color: black;
+	background-color: white;
+	margin: auto;
+	border-top: 1px solid black;
+}
+footer > ul
+{
+    list-style-type: none;
+    list-style-position: inside;
+    overflow: auto;
+    padding: 0% 0% 1% 1%;
+	display: table;
+	margin: 0 auto;
+}
+footer > ul > li
+{
+    float: left;
+    text-align: left;
+	margin: 2% 20px 1% 0%;
+}
+
+/* form */
+.align
+{
+	width: 65%
+}
+form > fieldset
+{
+	display: block;
+    margin-left: 1%;
+    margin-right: 1%;
+	margin-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid black;
+}
+form > fieldset > div > p
+{
+	text-align: right;
+	padding-top: 4%;
+	vertical-align: bottom;
+}
+form > fieldset > div > p > input
+{
+    width: 65%;
+    padding: 3px 10px;
+    margin: 2px;
+    box-sizing: border-box;
+	float: right;
+}
+form > fieldset  > p > textarea
+{
+    width: 100%;
+    height: 150px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+form > fieldset > div > p > input[type=submit]
+{
+	width: 15%;
+    padding: 6px 10px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+form > fieldset > div > p > input[type=radio]
+{
+	width: 10%;
+	float: initial;
+}
+@media screen and (max-width: 600px)
+{
+header > nav > ul > li 
+{
+	float: initial;
+    width: 100%;
+}
+header > nav > ul > li > a 
+{
+    padding: 1%;
+}
+.align
+{
+	width: 100%;
+}
+form > fieldset > div > p > input
+{
+    width: 100%;
+}
+form > fieldset > div > p
+{
+	text-align: left;
+}
+}
+
+
+
+
+
+
+
